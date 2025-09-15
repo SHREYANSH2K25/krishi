@@ -3,6 +3,7 @@ import Hero from "../components/hero.jsx"
 import Features from "../components/features.jsx"
 import Testimonials from "../components/testimonials.jsx"
 import Footer from "../components/footer.jsx"
+import CameraScanner from "../components/camera.jsx"
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
         <Hero />
         <Features />
         <Testimonials />
+        <CameraScanner />
       </main>
       <Footer />
     </div>
